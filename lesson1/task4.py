@@ -1,9 +1,3 @@
-# num = input("Введите число: ")
-# num_list = []
-
-# print(max(num_list))
-# print(len(num_list))
-
 a = int(input("Введите число: "))
 b = a % 10
 a1 = a
