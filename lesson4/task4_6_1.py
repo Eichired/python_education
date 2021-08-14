@@ -10,7 +10,14 @@
 
 from itertools import count
 
-for i in count(3, 2):
-    if i > 20:
-        break
-    print(i)
+
+def numbers(a, b, c):
+    for i in count(a, c):
+        if i > b:
+            break
+        print(i)
+
+
+result = numbers(int(input("Ввелите начало численного интервала: ")),
+                 int(input("Введите конец интервала: ")),
+                 int(input("Введите шаг итерации: ")))
