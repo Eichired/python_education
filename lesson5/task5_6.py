@@ -10,6 +10,7 @@ x = less_list[::4]
 hours = less_list[1::4]
 """
 
+
 def meaningless_function():
     d = {}
     with open("file_for_task6.txt", encoding='utf-8') as fobj:
@@ -18,5 +19,6 @@ def meaningless_function():
             summ = sum(map(int, ''.join([i for i in stats if i == ' ' or (i.isdigit())]).split()))
             d[name] = summ
         print(f"{d}")
+
 
 meaningless_function()
