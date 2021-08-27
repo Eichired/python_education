@@ -10,7 +10,9 @@ def summ():
     summ = 0
     while True:
         s = input('Введите числа через пробел (или # для выхода): ')
+        print(s)
         digit_list = s.split()
+        print(digit_list)
         if s == '#':
             break
         elif "#" in digit_list:
